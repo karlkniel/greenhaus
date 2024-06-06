@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Mary Jane",
+        "date": "01-01-1985",
+        "category": "Medicine",
+        "id": 1001,
+        "measurements": {
+            "airTemp": "xx.xx *C",
+            "humidity": "xx.xx %",
+            "soilTemp": "xx.xx *C",
+            "soilMoisture": "xx.xx %",
+            "pressure": "xx.xx Pa"
+        },
+        "description": "Planty1",
+        "imageName": "mj"
+    },
+    {
+        "name": "Jack Lantern",
+        "date": "01-01-1985",
+        "category": "Gourd",
+        "id": 1002,
+        "measurements": {
+            "airTemp": "xx.xx *C",
+            "humidity": "xx.xx %",
+            "soilTemp": "xx.xx *C",
+            "soilMoisture": "xx.xx %",
+            "pressure": "xx.xx Pa"
+        },
+        "description": "Planty2",
+        "imageName": "jl"
+    },
+    {
+        "name": "Tom Mato",
+        "date": "01-01-1985",
+        "category": "Vegetable",
+        "id": 1003,
+        "measurements": {
+            "airTemp": "xx.xx *C",
+            "humidity": "xx.xx %",
+            "soilTemp": "xx.xx *C",
+            "soilMoisture": "xx.xx %",
+            "pressure": "xx.xx Pa"
+        },
+        "description": "Planty3",
+        "imageName": "tm"
+    }
+]

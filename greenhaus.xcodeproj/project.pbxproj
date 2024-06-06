@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB499B702C0A423900FE138E /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB499B6F2C0A423900FE138E /* DeviceList.swift */; };
+		CB5456F72C0A4866002C1629 /* StationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5456F62C0A4866002C1629 /* StationDetail.swift */; };
+		CB5456FB2C0A57D7002C1629 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5456FA2C0A57D7002C1629 /* ActionButton.swift */; };
+		CB5456FD2C0A58AE002C1629 /* BlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5456FC2C0A58AE002C1629 /* BlePeripheral.swift */; };
+		CB5457012C0A5DD4002C1629 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5457002C0A5DD4002C1629 /* BluetoothManager.swift */; };
+		CB8C47662C10BF5600E9073A /* ViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C47652C10BF5600E9073A /* ViewButton.swift */; };
+		CB8C47682C10C31000E9073A /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8C47672C10C31000E9073A /* StartView.swift */; };
+		CB91413A2C0A62D400A16B6C /* DeviceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9141392C0A62D400A16B6C /* DeviceDetail.swift */; };
+		CB91413C2C0A62F200A16B6C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91413B2C0A62F200A16B6C /* Device.swift */; };
+		CB91413F2C0A646300A16B6C /* DeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91413E2C0A646300A16B6C /* DeviceRow.swift */; };
 		CBA8CB732C0A31D000B2650A /* greenhausApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA8CB722C0A31D000B2650A /* greenhausApp.swift */; };
 		CBA8CB752C0A31D000B2650A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA8CB742C0A31D000B2650A /* ContentView.swift */; };
 		CBA8CB772C0A31D100B2650A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA8CB762C0A31D100B2650A /* Assets.xcassets */; };
 		CBA8CB7A2C0A31D100B2650A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA8CB792C0A31D100B2650A /* Preview Assets.xcassets */; };
+		CBAD80352C0A35EC00577628 /* PlantImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD80342C0A35EC00577628 /* PlantImage.swift */; };
+		CBAD80372C0A380F00577628 /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD80362C0A380F00577628 /* BackgroundImage.swift */; };
+		CBAD80392C0A3B4600577628 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD80382C0A3B4600577628 /* Station.swift */; };
+		CBAD803D2C0A3D2100577628 /* StationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD803C2C0A3D2100577628 /* StationRow.swift */; };
+		CBAD803F2C0A3DE300577628 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD803E2C0A3DE300577628 /* ModelData.swift */; };
+		CBAD80412C0A3F6500577628 /* stationData.json in Resources */ = {isa = PBXBuildFile; fileRef = CBAD80402C0A3F6500577628 /* stationData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB499B6F2C0A423900FE138E /* DeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceList.swift; sourceTree = "<group>"; };
+		CB5456F62C0A4866002C1629 /* StationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetail.swift; sourceTree = "<group>"; };
+		CB5456FA2C0A57D7002C1629 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		CB5456FC2C0A58AE002C1629 /* BlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheral.swift; sourceTree = "<group>"; };
+		CB5457002C0A5DD4002C1629 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		CB8C47652C10BF5600E9073A /* ViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewButton.swift; sourceTree = "<group>"; };
+		CB8C47672C10C31000E9073A /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		CB9141392C0A62D400A16B6C /* DeviceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetail.swift; sourceTree = "<group>"; };
+		CB91413B2C0A62F200A16B6C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		CB91413E2C0A646300A16B6C /* DeviceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRow.swift; sourceTree = "<group>"; };
+		CB9141402C0A64F600A16B6C /* deviceData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = deviceData.json; sourceTree = "<group>"; };
+		CBA589562C0FA2CB0056D928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CBA589572C0FA3170056D928 /* greenhaus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = greenhaus.entitlements; sourceTree = "<group>"; };
 		CBA8CB6F2C0A31D000B2650A /* greenhaus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greenhaus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA8CB722C0A31D000B2650A /* greenhausApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greenhausApp.swift; sourceTree = "<group>"; };
 		CBA8CB742C0A31D000B2650A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBA8CB762C0A31D100B2650A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA8CB792C0A31D100B2650A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBAD80342C0A35EC00577628 /* PlantImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantImage.swift; sourceTree = "<group>"; };
+		CBAD80362C0A380F00577628 /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
+		CBAD80382C0A3B4600577628 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		CBAD803C2C0A3D2100577628 /* StationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRow.swift; sourceTree = "<group>"; };
+		CBAD803E2C0A3DE300577628 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = greenhaus/Model/ModelData.swift; sourceTree = SOURCE_ROOT; };
+		CBAD80402C0A3F6500577628 /* stationData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stationData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +67,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB499B6E2C0A419900FE138E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBAD80402C0A3F6500577628 /* stationData.json */,
+				CB9141402C0A64F600A16B6C /* deviceData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB5456F82C0A576E002C1629 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				CBAD803C2C0A3D2100577628 /* StationRow.swift */,
+				CB5456F62C0A4866002C1629 /* StationDetail.swift */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		CB5456F92C0A57B6002C1629 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CBAD80342C0A35EC00577628 /* PlantImage.swift */,
+				CBAD80362C0A380F00577628 /* BackgroundImage.swift */,
+				CB5456FA2C0A57D7002C1629 /* ActionButton.swift */,
+				CB8C47652C10BF5600E9073A /* ViewButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CB91413D2C0A642800A16B6C /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				CB499B6F2C0A423900FE138E /* DeviceList.swift */,
+				CB91413E2C0A646300A16B6C /* DeviceRow.swift */,
+				CB9141392C0A62D400A16B6C /* DeviceDetail.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
 		CBA8CB662C0A31D000B2650A = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +125,13 @@
 		CBA8CB712C0A31D000B2650A /* greenhaus */ = {
 			isa = PBXGroup;
 			children = (
+				CBA589572C0FA3170056D928 /* greenhaus.entitlements */,
+				CBA589562C0FA2CB0056D928 /* Info.plist */,
 				CBA8CB722C0A31D000B2650A /* greenhausApp.swift */,
-				CBA8CB742C0A31D000B2650A /* ContentView.swift */,
+				CB5457002C0A5DD4002C1629 /* BluetoothManager.swift */,
+				CBAD803A2C0A3CD400577628 /* Views */,
+				CBAD803B2C0A3CF700577628 /* Model */,
+				CB499B6E2C0A419900FE138E /* Resources */,
 				CBA8CB762C0A31D100B2650A /* Assets.xcassets */,
 				CBA8CB782C0A31D100B2650A /* Preview Content */,
 			);
@@ -65,6 +144,29 @@
 				CBA8CB792C0A31D100B2650A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBAD803A2C0A3CD400577628 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB8C47672C10C31000E9073A /* StartView.swift */,
+				CBA8CB742C0A31D000B2650A /* ContentView.swift */,
+				CB91413D2C0A642800A16B6C /* Devices */,
+				CB5456F82C0A576E002C1629 /* Stations */,
+				CB5456F92C0A57B6002C1629 /* Helper */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBAD803B2C0A3CF700577628 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBAD803E2C0A3DE300577628 /* ModelData.swift */,
+				CBAD80382C0A3B4600577628 /* Station.swift */,
+				CB5456FC2C0A58AE002C1629 /* BlePeripheral.swift */,
+				CB91413B2C0A62F200A16B6C /* Device.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +229,7 @@
 			files = (
 				CBA8CB7A2C0A31D100B2650A /* Preview Assets.xcassets in Resources */,
 				CBA8CB772C0A31D100B2650A /* Assets.xcassets in Resources */,
+				CBAD80412C0A3F6500577628 /* stationData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +240,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB91413A2C0A62D400A16B6C /* DeviceDetail.swift in Sources */,
+				CB5456FB2C0A57D7002C1629 /* ActionButton.swift in Sources */,
+				CB8C47662C10BF5600E9073A /* ViewButton.swift in Sources */,
+				CB91413F2C0A646300A16B6C /* DeviceRow.swift in Sources */,
 				CBA8CB752C0A31D000B2650A /* ContentView.swift in Sources */,
+				CB5457012C0A5DD4002C1629 /* BluetoothManager.swift in Sources */,
+				CBAD80392C0A3B4600577628 /* Station.swift in Sources */,
+				CB499B702C0A423900FE138E /* DeviceList.swift in Sources */,
+				CB5456FD2C0A58AE002C1629 /* BlePeripheral.swift in Sources */,
+				CBAD80352C0A35EC00577628 /* PlantImage.swift in Sources */,
+				CB5456F72C0A4866002C1629 /* StationDetail.swift in Sources */,
+				CB8C47682C10C31000E9073A /* StartView.swift in Sources */,
+				CB91413C2C0A62F200A16B6C /* Device.swift in Sources */,
+				CBAD803D2C0A3D2100577628 /* StationRow.swift in Sources */,
 				CBA8CB732C0A31D000B2650A /* greenhausApp.swift in Sources */,
+				CBAD80372C0A380F00577628 /* BackgroundImage.swift in Sources */,
+				CBAD803F2C0A3DE300577628 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,13 +387,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = greenhaus/greenhaus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"greenhaus/Preview Content\"";
 				DEVELOPMENT_TEAM = W3F3HV7452;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = greenhaus/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -298,13 +419,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = greenhaus/greenhaus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"greenhaus/Preview Content\"";
 				DEVELOPMENT_TEAM = W3F3HV7452;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = greenhaus/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
