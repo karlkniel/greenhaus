@@ -8,7 +8,7 @@ struct StartView: View {
                     Image(systemName: "house.fill")
                     Text("Home")
             }
-            DeviceList()
+            DevicesView()
                 .tabItem {
                     Image(systemName: "light.beacon.max.fill")
                     Text("Devices")
@@ -18,7 +18,7 @@ struct StartView: View {
                     Image(systemName: "globe.desk.fill")
                     Text("Learn")
             }
-            Text("Alerts")
+            Text("Profile")
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("Profile")

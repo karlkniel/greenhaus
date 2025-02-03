@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB499B702C0A423900FE138E /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB499B6F2C0A423900FE138E /* DeviceList.swift */; };
+		CB499B702C0A423900FE138E /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB499B6F2C0A423900FE138E /* DevicesView.swift */; };
 		CB5456F72C0A4866002C1629 /* StationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5456F62C0A4866002C1629 /* StationDetail.swift */; };
 		CB5456FB2C0A57D7002C1629 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5456FA2C0A57D7002C1629 /* ActionButton.swift */; };
 		CB5456FD2C0A58AE002C1629 /* BlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5456FC2C0A58AE002C1629 /* BlePeripheral.swift */; };
@@ -27,10 +27,12 @@
 		CBAD803D2C0A3D2100577628 /* StationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD803C2C0A3D2100577628 /* StationRow.swift */; };
 		CBAD803F2C0A3DE300577628 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD803E2C0A3DE300577628 /* ModelData.swift */; };
 		CBAD80412C0A3F6500577628 /* stationData.json in Resources */ = {isa = PBXBuildFile; fileRef = CBAD80402C0A3F6500577628 /* stationData.json */; };
+		CBFECDC82CDA8D6C00D13120 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFECDC72CDA8D6C00D13120 /* StartButton.swift */; };
+		CBFECDCA2CDA8D8B00D13120 /* StopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFECDC92CDA8D8B00D13120 /* StopButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB499B6F2C0A423900FE138E /* DeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceList.swift; sourceTree = "<group>"; };
+		CB499B6F2C0A423900FE138E /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		CB5456F62C0A4866002C1629 /* StationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetail.swift; sourceTree = "<group>"; };
 		CB5456FA2C0A57D7002C1629 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		CB5456FC2C0A58AE002C1629 /* BlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheral.swift; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		CBAD803C2C0A3D2100577628 /* StationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationRow.swift; sourceTree = "<group>"; };
 		CBAD803E2C0A3DE300577628 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = greenhaus/Model/ModelData.swift; sourceTree = SOURCE_ROOT; };
 		CBAD80402C0A3F6500577628 /* stationData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stationData.json; sourceTree = "<group>"; };
+		CBFECDC72CDA8D6C00D13120 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		CBFECDC92CDA8D8B00D13120 /* StopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				CBAD80362C0A380F00577628 /* BackgroundImage.swift */,
 				CB5456FA2C0A57D7002C1629 /* ActionButton.swift */,
 				CB8C47652C10BF5600E9073A /* ViewButton.swift */,
+				CBFECDC72CDA8D6C00D13120 /* StartButton.swift */,
+				CBFECDC92CDA8D8B00D13120 /* StopButton.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -99,7 +105,6 @@
 		CB91413D2C0A642800A16B6C /* Devices */ = {
 			isa = PBXGroup;
 			children = (
-				CB499B6F2C0A423900FE138E /* DeviceList.swift */,
 				CB91413E2C0A646300A16B6C /* DeviceRow.swift */,
 				CB9141392C0A62D400A16B6C /* DeviceDetail.swift */,
 			);
@@ -151,6 +156,7 @@
 			children = (
 				CB8C47672C10C31000E9073A /* StartView.swift */,
 				CBA8CB742C0A31D000B2650A /* ContentView.swift */,
+				CB499B6F2C0A423900FE138E /* DevicesView.swift */,
 				CB91413D2C0A642800A16B6C /* Devices */,
 				CB5456F82C0A576E002C1629 /* Stations */,
 				CB5456F92C0A57B6002C1629 /* Helper */,
@@ -247,13 +253,15 @@
 				CBA8CB752C0A31D000B2650A /* ContentView.swift in Sources */,
 				CB5457012C0A5DD4002C1629 /* BluetoothManager.swift in Sources */,
 				CBAD80392C0A3B4600577628 /* Station.swift in Sources */,
-				CB499B702C0A423900FE138E /* DeviceList.swift in Sources */,
+				CB499B702C0A423900FE138E /* DevicesView.swift in Sources */,
 				CB5456FD2C0A58AE002C1629 /* BlePeripheral.swift in Sources */,
 				CBAD80352C0A35EC00577628 /* PlantImage.swift in Sources */,
+				CBFECDC82CDA8D6C00D13120 /* StartButton.swift in Sources */,
 				CB5456F72C0A4866002C1629 /* StationDetail.swift in Sources */,
 				CB8C47682C10C31000E9073A /* StartView.swift in Sources */,
 				CB91413C2C0A62F200A16B6C /* Device.swift in Sources */,
 				CBAD803D2C0A3D2100577628 /* StationRow.swift in Sources */,
+				CBFECDCA2CDA8D8B00D13120 /* StopButton.swift in Sources */,
 				CBA8CB732C0A31D000B2650A /* greenhausApp.swift in Sources */,
 				CBAD80372C0A380F00577628 /* BackgroundImage.swift in Sources */,
 				CBAD803F2C0A3DE300577628 /* ModelData.swift in Sources */,

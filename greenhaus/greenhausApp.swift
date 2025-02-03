@@ -11,7 +11,7 @@ import SwiftUI
 struct greenhausApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
